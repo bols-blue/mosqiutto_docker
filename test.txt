@@ -1,0 +1,1056 @@
+Client (null) sending CONNECT
+Client (null) received CONNACK (0)
+Client (null) sending SUBSCRIBE (Mid: 1, Topic: #, QoS: 0, Options: 0x00)
+Client (null) received SUBACK
+Subscribed (mid: 1): 0
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 554601, "roll": -0.0010345494374632835, "pitch": -0.0012693305034190416, "yaw": -0.1401372253894806, "rollspeed": -0.00019038963364437222, "pitchspeed": -0.000322232604958117, "yawspeed": -0.0007815243443474174}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 554601, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957841919269413, "nav_pitch": 0.00031470032990910113, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0003023423778358847, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.024048252031207085, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.0001890278945211321}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 554601404, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 554601, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 554601404, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4183}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 554601, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4183}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 554601, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 554601, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 554601, "press_abs": 945.0499267578125, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 554567000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974161434109, "time_boot_ms": 554601}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0008413019240833819, "omegaIy": -0.0009052623063325882, "omegaIz": -0.0013988607097417116, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002366523491218686, "error_yaw": 0.0013939352938905358}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (162 bytes))
+{"roll": -0.001555808586999774, "pitch": -0.0017946577863767743, "yaw": -0.11900384724140167, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008764564990997314, "pos_horiz_variance": 0.005072589032351971, "pos_vert_variance": 2.787556149996817e-05, "compass_variance": 0.013860286213457584, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (193 bytes))
+{"time_boot_ms": 554601, "x": 0.011493109166622162, "y": -0.015063930302858353, "z": 0.0003023423778358847, "vx": 0.014660648070275784, "vy": -0.019062628969550133, "vz": 0.0001890278945211321}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (187 bytes))
+{"time_usec": 554601404, "vibration_x": 0.002872502664104104, "vibration_y": 0.002794574946165085, "vibration_z": 0.0026825948152691126, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 554851, "roll": -0.0010315354447811842, "pitch": -0.0012665856629610062, "yaw": -0.1401328146457672, "rollspeed": -0.00024697795743122697, "pitchspeed": -0.000328687543515116, "yawspeed": -0.0007393527776002884}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 554851, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (203 bytes))
+{"nav_roll": -0.0001795785065041855, "nav_pitch": 0.00031470032990910113, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0002947888569906354, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02400725707411766, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00018704807735048234}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 554851304, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 554851, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 554851304, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4183}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 554851, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4183}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 554851, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 554851, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 554851, "press_abs": 945.0455932617188, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 554767000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974161684009, "time_boot_ms": 554851}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0008386460249312222, "omegaIy": -0.0009025456965900958, "omegaIz": -0.0013948522973805666, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023664836771786213, "error_yaw": 0.001403634436428547}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015597259625792503, "pitch": -0.0017998649273067713, "yaw": -0.11901750415563583, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (243 bytes))
+{"flags": 831, "velocity_variance": 0.008825642056763172, "pos_horiz_variance": 0.005159467924386263, "pos_vert_variance": 2.8829710572608747e-05, "compass_variance": 0.013910648413002491, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (192 bytes))
+{"time_boot_ms": 554851, "x": 0.0114502077922225, "y": -0.014982796274125576, "z": 0.0002947888569906354, "vx": 0.014660929329693317, "vy": -0.019010668620467186, "vz": 0.00018704807735048234}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 554851304, "vibration_x": 0.0028309267945587635, "vibration_y": 0.0026991094928234816, "vibration_z": 0.002720331773161888, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HEARTBEAT', ... (104 bytes))
+{"type": 2, "autopilot": 3, "base_mode": 81, "custom_mode": 0, "system_status": 3, "mavlink_version": 3}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (229 bytes))
+{"time_boot_ms": 555101, "roll": -0.0010256817331537604, "pitch": -0.001264655962586403, "yaw": -0.14013870060443878, "rollspeed": -0.00019259657710790634, "pitchspeed": -0.0002490089973434806, "yawspeed": -0.0007452192949131131}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 555101, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957847740035504, "nav_pitch": 0.0003147004172205925, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00029629855998791754, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.024068797007203102, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.0001782741310307756}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 555101204, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 555101, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 555101204, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4183}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 555101, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4183}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 555101, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 555101, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 555101, "press_abs": 945.0201416015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 554967000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974161933909, "time_boot_ms": 555101}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (214 bytes))
+{"omegaIx": -0.0008359052008017898, "omegaIy": -0.0008997414843179286, "omegaIz": -0.0013921746285632253, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023778846953064203, "error_yaw": 0.00141902978066355}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (161 bytes))
+{"roll": -0.001558956690132618, "pitch": -0.001804873114451766, "yaw": -0.11902251094579697, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008837196044623852, "pos_horiz_variance": 0.0051500797271728516, "pos_vert_variance": 2.888796734623611e-05, "compass_variance": 0.01389668881893158, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (193 bytes))
+{"time_boot_ms": 555101, "x": 0.011476398445665836, "y": -0.014988856390118599, "z": 0.00029629855998791754, "vx": 0.014668762683868408, "vy": -0.01908230595290661, "vz": 0.0001782741310307756}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 555101204, "vibration_x": 0.0025933226570487022, "vibration_y": 0.002952645532786846, "vibration_z": 0.0031987654510885477, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 555351, "roll": -0.0010225787991657853, "pitch": -0.0012617461616173387, "yaw": -0.1401369869709015, "rollspeed": -0.00025282794376835227, "pitchspeed": -0.00028776907129213214, "yawspeed": -0.0008322859648615122}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 555351, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957844829652458, "nav_pitch": 0.00031470032990910113, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0002834862971212715, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02417837455868721, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00011252893455093727}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 555351104, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 555351, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 555351104, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 555351, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 555351, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 555351, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (124 bytes))
+{"time_boot_ms": 555351, "press_abs": 945.018310546875, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 555167000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974162183809, "time_boot_ms": 555351}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (212 bytes))
+{"omegaIx": -0.0008330465643666685, "omegaIy": -0.0008968068286776543, "omegaIz": -0.00138782465364784, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002376178978011012, "error_yaw": 0.001425078371539712}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015618772013112903, "pitch": -0.0018255679169669747, "yaw": -0.11903217434883118, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008849437348544598, "pos_horiz_variance": 0.005143546964973211, "pos_vert_variance": 2.744219273154158e-05, "compass_variance": 0.013842194341123104, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (193 bytes))
+{"time_boot_ms": 555351, "x": 0.011583308689296246, "y": -0.01510495226830244, "z": 0.0002834862971212715, "vx": 0.014807711355388165, "vy": -0.019113488495349884, "vz": 0.00011252893455093727}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 555351104, "vibration_x": 0.0030914663802832365, "vibration_y": 0.0026808178517967463, "vibration_z": 0.002800234593451023, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 555601, "roll": -0.001027375808916986, "pitch": -0.001276011229492724, "yaw": -0.14013634622097015, "rollspeed": -0.00017721665790304542, "pitchspeed": -0.0003358839894644916, "yawspeed": -0.0007204432040452957}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 555601, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (203 bytes))
+{"nav_roll": -0.00017957844829652458, "nav_pitch": 0.0003147003590129316, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0002650659007485956, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (145 bytes))
+{"airspeed": 0.0, "groundspeed": 0.024369509890675545, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00010469339758856222}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 555601004, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 555601, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 555601004, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 555601, "xacc": 0, "yacc": 0, "zacc": -1000, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 555601, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 555601, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 555601, "press_abs": 945.0504760742188, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 555367000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974162433709, "time_boot_ms": 555601}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0008300582994706929, "omegaIy": -0.0008937264792621136, "omegaIz": -0.0013847192749381065, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002372203627601266, "error_yaw": 0.0014485788997262716}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (162 bytes))
+{"roll": -0.0015679682837799191, "pitch": -0.0018358834786340594, "yaw": -0.1190449520945549, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (241 bytes))
+{"flags": 831, "velocity_variance": 0.008847065269947052, "pos_horiz_variance": 0.005133837927132845, "pos_vert_variance": 2.663212944753468e-05, "compass_variance": 0.01383589580655098, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (194 bytes))
+{"time_boot_ms": 555601, "x": 0.011804760433733463, "y": -0.015357159078121185, "z": 0.0002650659007485956, "vx": 0.014948070049285889, "vy": -0.019246511161327362, "vz": 0.00010469339758856222}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (189 bytes))
+{"time_usec": 555601004, "vibration_x": 0.0029395665042102337, "vibration_y": 0.0030670068226754665, "vibration_z": 0.0031681456603109837, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (231 bytes))
+{"time_boot_ms": 555853, "roll": -0.0010246903402730823, "pitch": -0.0012717454228550196, "yaw": -0.14013433456420898, "rollspeed": -0.00021864433074370027, "pitchspeed": -0.00026771839475259185, "yawspeed": -0.0007800271851010621}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 555853, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957844829652458, "nav_pitch": 0.0003147003590129316, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00025926707894541323, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02399737574160099, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00018191483104601502}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 555853403, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 555853, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 555853403, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 555853, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 555853, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 555853, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 555853, "press_abs": 945.0297241210938, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 555767000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974162686108, "time_boot_ms": 555853}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0008268493693321943, "omegaIy": -0.0008905375725589693, "omegaIz": -0.0013846515212208033, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002387693850323558, "error_yaw": 0.0014743553474545479}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (161 bytes))
+{"roll": -0.00158068654127419, "pitch": -0.0018461483996361494, "yaw": -0.11906465142965317, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008890804834663868, "pos_horiz_variance": 0.005195314530283213, "pos_vert_variance": 2.633282019814942e-05, "compass_variance": 0.013893968425691128, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (192 bytes))
+{"time_boot_ms": 555853, "x": 0.01155794132500887, "y": -0.0149861304089427, "z": 0.00025926707894541323, "vx": 0.014773031696677208, "vy": -0.018911149352788925, "vz": 0.00018191483104601502}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 555853403, "vibration_x": 0.0029143451247364283, "vibration_y": 0.002670410554856062, "vibration_z": 0.0029881419613957405, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HEARTBEAT', ... (104 bytes))
+{"type": 2, "autopilot": 3, "base_mode": 81, "custom_mode": 0, "system_status": 3, "mavlink_version": 3}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 556103, "roll": -0.0010208470048382878, "pitch": -0.0012685487745329738, "yaw": -0.14013613760471344, "rollspeed": -0.000256420171353966, "pitchspeed": -0.0003011818043887615, "yawspeed": -0.0007933181477710605}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 556103, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957844829652458, "nav_pitch": 0.0003147004172205925, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00026106537552550435, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02396036870777607, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00016840215539559722}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 556103303, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 556103, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 556103303, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 556103, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4184}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 556103, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 556103, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (124 bytes))
+{"time_boot_ms": 556103, "press_abs": 945.006591796875, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 555967000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974162936008, "time_boot_ms": 556103}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (216 bytes))
+{"omegaIx": -0.0008232106920331717, "omegaIy": -0.0008867139695212245, "omegaIz": -0.0013789701042696834, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023919835221022367, "error_yaw": 0.0015184046933427453}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015871599316596985, "pitch": -0.0018316360656172037, "yaw": -0.11906346678733826, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008837206289172173, "pos_horiz_variance": 0.005175219848752022, "pos_vert_variance": 2.528057484596502e-05, "compass_variance": 0.013832176104187965, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (195 bytes))
+{"time_boot_ms": 556103, "x": 0.011547273024916649, "y": -0.014932907186448574, "z": 0.00026106537552550435, "vx": 0.014725779183208942, "vy": -0.018901076167821884, "vz": 0.00016840215539559722}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (187 bytes))
+{"time_usec": 556103303, "vibration_x": 0.0028486582450568676, "vibration_y": 0.0027747093699872494, "vibration_z": 0.00302440719678998, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 556351, "roll": -0.0010215272195637226, "pitch": -0.0012640008935704827, "yaw": -0.14013142883777618, "rollspeed": -0.00019420869648456573, "pitchspeed": -0.0002474828506819904, "yawspeed": -0.0007525532273575664}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 556351, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957841919269413, "nav_pitch": 0.00031470032990910113, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0002586891350802034, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (145 bytes))
+{"airspeed": 0.0, "groundspeed": 0.024057947099208832, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00010381374886492267}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 556351537, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 556351, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 556351537, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 556351, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 556351, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 556351, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 556351, "press_abs": 945.0344848632812, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 556167000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974163184242, "time_boot_ms": 556351}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (214 bytes))
+{"omegaIx": -0.0008188464562408626, "omegaIy": -0.0008821326773613691, "omegaIz": -0.001373552018776536, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002389456843957305, "error_yaw": 0.0015267471317201853}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (162 bytes))
+{"roll": -0.0015804701251909137, "pitch": -0.001818120013922453, "yaw": -0.11905383318662643, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008825237862765789, "pos_horiz_variance": 0.005161004140973091, "pos_vert_variance": 2.521411079214886e-05, "compass_variance": 0.013827554881572723, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (193 bytes))
+{"time_boot_ms": 556351, "x": 0.011731552891433239, "y": -0.01515521015971899, "z": 0.0002586891350802034, "vx": 0.014764560386538506, "vy": -0.018994541838765144, "vz": 0.00010381374886492267}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 556351537, "vibration_x": 0.0026229340583086014, "vibration_y": 0.0027398911770433187, "vibration_z": 0.002939065918326378, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 556601, "roll": -0.0010254033841192722, "pitch": -0.0012615416198968887, "yaw": -0.140130415558815, "rollspeed": -0.00020983762806281447, "pitchspeed": -0.0002564846072345972, "yawspeed": -0.0007836091099306941}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 556601, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957837553694844, "nav_pitch": 0.0003147002134937793, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00023443940153811127, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.023866524919867516, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -3.872251181746833e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 556601437, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 556601, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 556601437, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 556601, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 556601, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 556601, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 556601, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 556567000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974163434142, "time_boot_ms": 556601}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (213 bytes))
+{"omegaIx": -0.0008131287759169936, "omegaIy": -0.000876233447343111, "omegaIz": -0.0013703989097848535, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002384638413786888, "error_yaw": 0.001512495568022132}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015708244172856212, "pitch": -0.0018070085207000375, "yaw": -0.11904168128967285, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (243 bytes))
+{"flags": 831, "velocity_variance": 0.008663958869874477, "pos_horiz_variance": 0.005017099902033806, "pos_vert_variance": 2.4543865947634913e-05, "compass_variance": 0.013827924616634846, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (194 bytes))
+{"time_boot_ms": 556601, "x": 0.011606128886342049, "y": -0.014989595860242844, "z": 0.00023443940153811127, "vx": 0.014690672978758812, "vy": -0.018809443339705467, "vz": 3.872251181746833e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 556601437, "vibration_x": 0.002909004921093583, "vibration_y": 0.0026937162037938833, "vibration_z": 0.0026285084895789623, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 556851, "roll": -0.0010278667323291302, "pitch": -0.0012602207716554403, "yaw": -0.1401255577802658, "rollspeed": -0.00018186471424996853, "pitchspeed": -0.000375667295884341, "yawspeed": -0.0008906943839974701}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 556851, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (203 bytes))
+{"nav_roll": -0.00017957839008886367, "nav_pitch": 0.0003147002134937793, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0002183077303925529, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (145 bytes))
+{"airspeed": 0.0, "groundspeed": 0.023587265983223915, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00011233472469029948}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 556851337, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 556851, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 556851337, "xacc": 0, "yacc": 0, "zacc": -1000, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 556851, "xacc": 0, "yacc": 0, "zacc": -1000, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 556851, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 556851, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 556851, "press_abs": 945.0297241210938, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 556767000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974163684042, "time_boot_ms": 556851}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0008103742729872465, "omegaIy": -0.0008733601425774395, "omegaIz": -0.0013660506810992956, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002383061219006777, "error_yaw": 0.0014958166284486651}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015638984041288495, "pitch": -0.0018000782001763582, "yaw": -0.11904003471136093, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (241 bytes))
+{"flags": 831, "velocity_variance": 0.00865961890667677, "pos_horiz_variance": 0.005032064858824015, "pos_vert_variance": 2.2329657440423034e-05, "compass_variance": 0.01378687284886837, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (194 bytes))
+{"time_boot_ms": 556851, "x": 0.011359279975295067, "y": -0.014661742374300957, "z": 0.0002183077303925529, "vx": 0.014461840502917767, "vy": -0.018633686006069183, "vz": 0.00011233472469029948}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 556851337, "vibration_x": 0.002775350818410516, "vibration_y": 0.0030006577726453543, "vibration_z": 0.0028354802634567022, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HEARTBEAT', ... (104 bytes))
+{"type": 2, "autopilot": 3, "base_mode": 81, "custom_mode": 0, "system_status": 3, "mavlink_version": 3}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 557101, "roll": -0.0010383091866970062, "pitch": -0.0012697821948677301, "yaw": -0.1401275247335434, "rollspeed": -0.0002158501883968711, "pitchspeed": -0.0003048892831429839, "yawspeed": -0.0007145858835428953}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 557101, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957841919269413, "nav_pitch": 0.0003147001552861184, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00022339967836160213, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02381494641304016, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00010621026740409434}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 557101237, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 557101, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 557101237, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 557101, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4185}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 557101, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 557101, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 557101, "press_abs": 945.0062866210938, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 556967000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974163933942, "time_boot_ms": 557101}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (216 bytes))
+{"omegaIx": -0.0008074791985563934, "omegaIy": -0.0008703825296834111, "omegaIz": -0.0013631363399326801, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023815776221454144, "error_yaw": 0.0014711389085277915}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015589724062010646, "pitch": -0.0017931527690961957, "yaw": -0.11902427673339844, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.00880456529557705, "pos_horiz_variance": 0.005199798382818699, "pos_vert_variance": 2.2795253244112246e-05, "compass_variance": 0.013902553357183933, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (195 bytes))
+{"time_boot_ms": 557101, "x": 0.011501843109726906, "y": -0.014875390566885471, "z": 0.00022339967836160213, "vx": 0.014549382030963898, "vy": -0.018853837624192238, "vz": 0.00010621026740409434}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 557101237, "vibration_x": 0.0026329876855015755, "vibration_y": 0.0031266468577086926, "vibration_z": 0.002818042179569602, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 557351, "roll": -0.0010382775217294693, "pitch": -0.0012687882408499718, "yaw": -0.14012251794338226, "rollspeed": -0.00023992842761799693, "pitchspeed": -0.00026057095965370536, "yawspeed": -0.000778892426751554}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 557351, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (205 bytes))
+{"nav_roll": -0.00017957849195227027, "nav_pitch": 0.00031470032990910113, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00022077656467445195, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02392520010471344, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -0.00010262193973176181}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 557351137, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 557351, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 557351137, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 557351, "xacc": 0, "yacc": 0, "zacc": -1000, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 557351, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 557351, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 557351, "press_abs": 945.0276489257812, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 557167000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974164183842, "time_boot_ms": 557351}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (216 bytes))
+{"omegaIx": -0.0008045949507504702, "omegaIy": -0.0008674024138599634, "omegaIz": -0.0013587333960458636, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023765398655086756, "error_yaw": 0.0014496453804895282}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015461473958566785, "pitch": -0.0017803970258682966, "yaw": -0.11901570856571198, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008796688169240952, "pos_horiz_variance": 0.00517553836107254, "pos_vert_variance": 2.1978430595481768e-05, "compass_variance": 0.013845019042491913, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (195 bytes))
+{"time_boot_ms": 557351, "x": 0.011625171639025211, "y": -0.015050019137561321, "z": 0.00022077657922636718, "vx": 0.014606048353016376, "vy": -0.018949368968605995, "vz": 0.00010262193973176181}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (188 bytes))
+{"time_usec": 557351137, "vibration_x": 0.002640717662870884, "vibration_y": 0.0026803987566381693, "vibration_z": 0.0025620008818805218, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 557601, "roll": -0.001045048818923533, "pitch": -0.0012696025660261512, "yaw": -0.1401287168264389, "rollspeed": -0.00014484603889286518, "pitchspeed": -0.0002191163948737085, "yawspeed": -0.0008066489826887846}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 557601, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.00017957844829652458, "nav_pitch": 0.0003147001552861184, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00020428476273082197, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02409231662750244, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -6.1542136791103985e-06}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 557601037, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 557601, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 557601037, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 557601, "xacc": 0, "yacc": 0, "zacc": -1000, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 557601, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 557601, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 557601, "press_abs": 945.0338745117188, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 557367000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974164433742, "time_boot_ms": 557601}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (216 bytes))
+{"omegaIx": -0.0008026233990676701, "omegaIy": -0.0008654196280986071, "omegaIz": -0.0013573324540629983, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023734497372061014, "error_yaw": 0.0014222451718524098}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015488738426938653, "pitch": -0.0017863191897049546, "yaw": -0.11901698261499405, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (241 bytes))
+{"flags": 831, "velocity_variance": 0.00876551866531372, "pos_horiz_variance": 0.005153535399585962, "pos_vert_variance": 2.148051316908095e-05, "compass_variance": 0.013847158290445805, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (194 bytes))
+{"time_boot_ms": 557601, "x": 0.011792794801294804, "y": -0.015268492512404919, "z": 0.00020428476273082197, "vx": 0.014743202365934849, "vy": -0.01905459724366665, "vz": 6.1542136791103985e-06}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (187 bytes))
+{"time_usec": 557601037, "vibration_x": 0.0026990564074367285, "vibration_y": 0.002745416946709156, "vibration_z": 0.003174715442582965, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 557853, "roll": -0.001042192685417831, "pitch": -0.0012617460452020168, "yaw": -0.14012020826339722, "rollspeed": -0.00020694307750090957, "pitchspeed": -0.00028194679180160165, "yawspeed": -0.0008479170501232147}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 557853, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (204 bytes))
+{"nav_roll": -0.0001795785065041855, "nav_pitch": 0.00031470012618228793, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00017963343998417258, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.023789571598172188, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -3.366193413967267e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 557853436, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 557853, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 557853436, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 557853, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 557853, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 557853, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 557853, "press_abs": 945.0471801757812, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 557767000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974164686141, "time_boot_ms": 557853}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0007985650445334613, "omegaIy": -0.0008613343234173954, "omegaIz": -0.0013557712081819773, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023610142525285482, "error_yaw": 0.001412961632013321}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015494852559641004, "pitch": -0.0017832104349508882, "yaw": -0.11902318149805069, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (243 bytes))
+{"flags": 831, "velocity_variance": 0.008743522688746452, "pos_horiz_variance": 0.005119448062032461, "pos_vert_variance": 1.9933286239393055e-05, "compass_variance": 0.013904071412980556, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (192 bytes))
+{"time_boot_ms": 557853, "x": 0.011479144915938377, "y": -0.014871864579617977, "z": 0.00017963343998417258, "vx": 0.01449638232588768, "vy": -0.01886262558400631, "vz": 3.366193413967267e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (187 bytes))
+{"time_usec": 557853436, "vibration_x": 0.0030068715568631887, "vibration_y": 0.0028026425279676914, "vibration_z": 0.00303034414537251, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HEARTBEAT', ... (104 bytes))
+{"type": 2, "autopilot": 3, "base_mode": 81, "custom_mode": 0, "system_status": 3, "mavlink_version": 3}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (231 bytes))
+{"time_boot_ms": 558103, "roll": -0.0010438261087983847, "pitch": -0.0012566366931423545, "yaw": -0.14012886583805084, "rollspeed": -0.00023352430434897542, "pitchspeed": -0.00023887603310868144, "yawspeed": -0.0007903940277174115}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 558103, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (203 bytes))
+{"nav_roll": -0.00017957855015993118, "nav_pitch": 0.000314700067974627, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00015160863404162228, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (142 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02366255223751068, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": 5.957833127467893e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 558103336, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 558103, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 558103336, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 558103, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4186}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 558103, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 558103, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (119 bytes))
+{"time_boot_ms": 558103, "press_abs": 945.0078125, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 557967000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974164936041, "time_boot_ms": 558103}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (214 bytes))
+{"omegaIx": -0.000794836669228971, "omegaIy": -0.0008574574603699148, "omegaIz": -0.0013513463782146573, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023564561270177364, "error_yaw": 0.001402457943186164}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (162 bytes))
+{"roll": -0.001547852880321443, "pitch": -0.0017800102941691875, "yaw": -0.11901286989450455, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.00873386487364769, "pos_horiz_variance": 0.005099235102534294, "pos_vert_variance": 1.7889395167003386e-05, "compass_variance": 0.013913167640566826, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (194 bytes))
+{"time_boot_ms": 558103, "x": 0.011383886449038982, "y": -0.01476951502263546, "z": 0.00015160863404162228, "vx": 0.014370840042829514, "vy": -0.018798813223838806, "vz": -5.957833127467893e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (186 bytes))
+{"time_usec": 558103336, "vibration_x": 0.00285853398963809, "vibration_y": 0.0028058087918907404, "vibration_z": 0.002855221973732114, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 558351, "roll": -0.0010473073925822973, "pitch": -0.0012594873551279306, "yaw": -0.14011570811271667, "rollspeed": -0.00017937872326001525, "pitchspeed": -0.0002784431562758982, "yawspeed": -0.0007827469380572438}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 558351, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (203 bytes))
+{"nav_roll": -0.0001795785647118464, "nav_pitch": 0.0003147001552861184, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00013474671868607402, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (143 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02375217340886593, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -3.609251507441513e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 558351570, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 558351, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 558351570, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 558351, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 558351, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 558351, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (123 bytes))
+{"time_boot_ms": 558351, "press_abs": 945.03662109375, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 558167000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974165184275, "time_boot_ms": 558351}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (215 bytes))
+{"omegaIx": -0.0007903887890279293, "omegaIy": -0.0008528083562850952, "omegaIz": -0.001344208256341517, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023544516880065203, "error_yaw": 0.0013943843077868223}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015477333217859268, "pitch": -0.0017812041332945228, "yaw": -0.11900735646486282, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (243 bytes))
+{"flags": 831, "velocity_variance": 0.008715388365089893, "pos_horiz_variance": 0.005092314910143614, "pos_vert_variance": 1.6189931557164527e-05, "compass_variance": 0.013859130442142487, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (194 bytes))
+{"time_boot_ms": 558351, "x": 0.011387423612177372, "y": -0.014812979847192764, "z": 0.00013474671868607402, "vx": 0.014403816312551498, "vy": -0.018886392936110497, "vz": 3.609251507441513e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (189 bytes))
+{"time_usec": 558351570, "vibration_x": 0.0029295783024281263, "vibration_y": 0.0026698363944888115, "vibration_z": 0.0028596639167517424, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (228 bytes))
+{"time_boot_ms": 558601, "roll": -0.001050370978191495, "pitch": -0.0012601623311638832, "yaw": -0.14011669158935547, "rollspeed": -0.0002115315292030573, "pitchspeed": -0.0002460812102071941, "yawspeed": -0.0008114470983855426}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 558601, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (201 bytes))
+{"nav_roll": -0.0001795786083675921, "nav_pitch": 0.000314700067974627, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0001351184182567522, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.023649487644433975, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -5.083735231892206e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 558601470, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 558601, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 558601470, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 558601, "xacc": 0, "yacc": 0, "zacc": -1000, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 558601, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 558601, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (119 bytes))
+{"time_boot_ms": 558601, "press_abs": 945.0078125, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 558567000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974165434175, "time_boot_ms": 558601}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (214 bytes))
+{"omegaIx": -0.0007845858344808221, "omegaIy": -0.0008469102322123945, "omegaIz": -0.0013408869272097945, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023509899619966745, "error_yaw": 0.00139506789855659}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (161 bytes))
+{"roll": -0.0015577320009469986, "pitch": -0.00177916104439646, "yaw": -0.11900927126407623, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (243 bytes))
+{"flags": 831, "velocity_variance": 0.008628509938716888, "pos_horiz_variance": 0.004965899512171745, "pos_vert_variance": 1.4604001989937387e-05, "compass_variance": 0.013863996602594852, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (191 bytes))
+{"time_boot_ms": 558601, "x": 0.01118432730436325, "y": -0.014606769196689129, "z": 0.0001351184182567522, "vx": 0.014197507873177528, "vy": -0.01891372725367546, "vz": 5.083735231892206e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (186 bytes))
+{"time_usec": 558601470, "vibration_x": 0.002903146669268608, "vibration_y": 0.003074652748182416, "vibration_z": 0.002755214925855398, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (227 bytes))
+{"time_boot_ms": 558851, "roll": -0.0010540595976635814, "pitch": -0.001254360075108707, "yaw": -0.14010879397392273, "rollspeed": -0.00022671063197776675, "pitchspeed": -0.000222265487536788, "yawspeed": -0.000778703426476568}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 558851, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (203 bytes))
+{"nav_roll": -0.00017957857926376164, "nav_pitch": 0.0003146999515593052, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.0001275449467357248, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (144 bytes))
+{"airspeed": 0.0, "groundspeed": 0.023533008992671967, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -4.701152283814736e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 558851370, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 558851, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 558851370, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 558851, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 558851, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 558851, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 558851, "press_abs": 945.0189819335938, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 558767000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974165684075, "time_boot_ms": 558851}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (216 bytes))
+{"omegaIx": -0.0007817784207873046, "omegaIy": -0.0008440635865554214, "omegaIz": -0.0013365178601816297, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023492316249758005, "error_yaw": 0.0014036380453035235}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015651326393708587, "pitch": -0.0017686868086457253, "yaw": -0.11901278048753738, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (243 bytes))
+{"flags": 831, "velocity_variance": 0.008705073036253452, "pos_horiz_variance": 0.005001369398087263, "pos_vert_variance": 1.4180805919750128e-05, "compass_variance": 0.013822868466377258, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (192 bytes))
+{"time_boot_ms": 558851, "x": 0.011006915010511875, "y": -0.014441057108342648, "z": 0.0001275449467357248, "vx": 0.014141344465315342, "vy": -0.01881023310124874, "vz": 4.701152283814736e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (189 bytes))
+{"time_usec": 558851370, "vibration_x": 0.0027820307295769453, "vibration_y": 0.0025418908335268497, "vibration_z": 0.0027193191926926374, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HEARTBEAT', ... (104 bytes))
+{"type": 2, "autopilot": 3, "base_mode": 81, "custom_mode": 0, "system_status": 3, "mavlink_version": 3}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 559101, "roll": -0.0010587788419798017, "pitch": -0.0012560359900817275, "yaw": -0.14010955393314362, "rollspeed": -0.00014349364209920168, "pitchspeed": -0.00021699222270399332, "yawspeed": -0.000733543885871768}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 559101, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (205 bytes))
+{"nav_roll": -0.00017957862291950732, "nav_pitch": 0.00031469977693632245, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00011423532851040363, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (143 bytes))
+{"airspeed": 0.0, "groundspeed": 0.023802217096090317, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": 1.561784119985532e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 559101270, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 559101, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 559101270, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 559101, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4187}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 559101, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 559101, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 559101, "press_abs": 945.0087280273438, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 558967000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974165933975, "time_boot_ms": 559101}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (214 bytes))
+{"omegaIx": -0.000778841960709542, "omegaIy": -0.0008411011658608913, "omegaIz": -0.0013335912954062223, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.002340181963518262, "error_yaw": 0.0014098887331783772}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (161 bytes))
+{"roll": -0.001575250644236803, "pitch": -0.001768377493135631, "yaw": -0.11900723725557327, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (242 bytes))
+{"flags": 831, "velocity_variance": 0.008849970996379852, "pos_horiz_variance": 0.0051787723787128925, "pos_vert_variance": 1.3194346138334367e-05, "compass_variance": 0.0139260059222579, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (192 bytes))
+{"time_boot_ms": 559101, "x": 0.01121005043387413, "y": -0.014744164422154427, "z": 0.00011423532851040363, "vx": 0.01431394275277853, "vy": -0.01901727169752121, "vz": -1.561784119985532e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (187 bytes))
+{"time_usec": 559101270, "vibration_x": 0.00264214095659554, "vibration_y": 0.0028159497305750847, "vibration_z": 0.0029248518403619528, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/ATTITUDE', ... (230 bytes))
+{"time_boot_ms": 559351, "roll": -0.0010604311246424913, "pitch": -0.0012528293300420046, "yaw": -0.14010056853294373, "rollspeed": -0.0002590920776128769, "pitchspeed": -0.00018128333613276482, "yawspeed": -0.0007181408000178635}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GLOBAL_POSITION_INT', ... (140 bytes))
+{"time_boot_ms": 559351, "lat": -353632620, "lon": 1491652373, "alt": 584060, "relative_alt": -20, "vx": 1, "vy": -1, "vz": 0, "hdg": 35198}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYS_STATUS', ... (344 bytes))
+{"onboard_control_sensors_present": 1399979055, "onboard_control_sensors_enabled": 1382128687, "onboard_control_sensors_health": 1399954479, "load": 0, "voltage_battery": 12587, "current_battery": 0, "battery_remaining": 100, "drop_rate_comm": 0, "errors_comm": 0, "errors_count1": 0, "errors_count2": 0, "errors_count3": 0, "errors_count4": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/POWER_STATUS', ... (38 bytes))
+{"Vcc": 5000, "Vservo": 0, "flags": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MEMINFO', ... (52 bytes))
+{"brkval": 0, "freemem": 65535, "freemem32": 131072}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/NAV_CONTROLLER_OUTPUT', ... (205 bytes))
+{"nav_roll": -0.00017957862291950732, "nav_pitch": 0.00031469977693632245, "nav_bearing": -8, "target_bearing": 0, "wp_dist": 0, "alt_error": 0.00010320880392100662, "aspd_error": 0.0, "xtrack_error": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/MISSION_CURRENT', ... (61 bytes))
+{"seq": 0, "total": 0, "mission_state": 0, "mission_mode": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VFR_HUD', ... (143 bytes))
+{"airspeed": 0.0, "groundspeed": 0.02400548756122589, "heading": 351, "throttle": 0, "alt": 584.0599975585938, "climb": -4.351346069597639e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SERVO_OUTPUT_RAW', ... (326 bytes))
+{"time_usec": 559351170, "port": 0, "servo1_raw": 1000, "servo2_raw": 1000, "servo3_raw": 1000, "servo4_raw": 1000, "servo5_raw": 0, "servo6_raw": 0, "servo7_raw": 0, "servo8_raw": 0, "servo9_raw": 0, "servo10_raw": 0, "servo11_raw": 0, "servo12_raw": 0, "servo13_raw": 0, "servo14_raw": 0, "servo15_raw": 0, "servo16_raw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RC_CHANNELS', ... (375 bytes))
+{"time_boot_ms": 559351, "chancount": 16, "chan1_raw": 1500, "chan2_raw": 1500, "chan3_raw": 1000, "chan4_raw": 1500, "chan5_raw": 1800, "chan6_raw": 1000, "chan7_raw": 1000, "chan8_raw": 1800, "chan9_raw": 0, "chan10_raw": 0, "chan11_raw": 0, "chan12_raw": 0, "chan13_raw": 0, "chan14_raw": 0, "chan15_raw": 0, "chan16_raw": 0, "chan17_raw": 0, "chan18_raw": 0, "rssi": 255}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/RAW_IMU', ... (166 bytes))
+{"time_usec": 559351170, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "id": 0, "temperature": 4188}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU2', ... (157 bytes))
+{"time_boot_ms": 559351, "xacc": 0, "yacc": 0, "zacc": -1001, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 4188}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_IMU3', ... (150 bytes))
+{"time_boot_ms": 559351, "xacc": 0, "yacc": 0, "zacc": 0, "xgyro": 0, "ygyro": 0, "zgyro": 0, "xmag": 224, "ymag": 80, "zmag": -528, "temperature": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE', ... (125 bytes))
+{"time_boot_ms": 559351, "press_abs": 945.0279541015625, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SCALED_PRESSURE2', ... (125 bytes))
+{"time_boot_ms": 559351, "press_abs": 945.0173950195312, "press_diff": 0.0, "temperature": 3120, "temperature_press_diff": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/GPS_RAW_INT', ... (254 bytes))
+{"time_usec": 559167000, "fix_type": 6, "lat": -353632621, "lon": 1491652374, "alt": 584090, "eph": 121, "epv": 200, "vel": 0, "cog": 0, "satellites_visible": 10, "alt_ellipsoid": 584090, "h_acc": 300, "v_acc": 300, "vel_acc": 40, "hdg_acc": 0, "yaw": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SYSTEM_TIME', ... (60 bytes))
+{"time_unix_usec": 1719974166183875, "time_boot_ms": 559351}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS', ... (216 bytes))
+{"omegaIx": -0.0007759167347103357, "omegaIy": -0.0008381351362913847, "omegaIz": -0.0013291776413097978, "accel_weight": 0.0, "renorm_val": 0.0, "error_rp": 0.0023507794830948114, "error_yaw": 0.0014197013806551695}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/SIMSTATE', ... (190 bytes))
+{"roll": 0.0, "pitch": 0.0, "yaw": -0.12217313796281815, "xacc": 0.0, "yacc": 0.0, "zacc": -9.806650161743164, "xgyro": 0.0, "ygyro": 0.0, "zgyro": 0.0, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/AHRS2', ... (163 bytes))
+{"roll": -0.0015836009988561273, "pitch": -0.0017668175278231502, "yaw": -0.11902090162038803, "altitude": 584.0899658203125, "lat": -353632621, "lng": 1491652374}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/HWSTATUS', ... (26 bytes))
+{"Vcc": 5000, "I2Cerr": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/TERRAIN_REPORT', ... (160 bytes))
+{"lat": -353632620, "lon": 1491652373, "spacing": 100, "terrain_height": 583.843994140625, "current_height": -0.030122069641947746, "pending": 0, "loaded": 504}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/EKF_STATUS_REPORT', ... (241 bytes))
+{"flags": 831, "velocity_variance": 0.008842533454298973, "pos_horiz_variance": 0.005162087269127369, "pos_vert_variance": 1.2154402611486148e-05, "compass_variance": 0.0138620063662529, "terrain_alt_variance": 0.0, "airspeed_variance": 0.0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/LOCAL_POSITION_NED', ... (193 bytes))
+{"time_boot_ms": 559351, "x": 0.011392205022275448, "y": -0.015004264190793037, "z": 0.00010320880392100662, "vx": 0.014442471787333488, "vy": -0.01917494274675846, "vz": 4.351346069597639e-05}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/VIBRATION', ... (187 bytes))
+{"time_usec": 559351170, "vibration_x": 0.0027950366493314505, "vibration_y": 0.002746547805145383, "vibration_z": 0.002843041904270649, "clipping_0": 0, "clipping_1": 0, "clipping_2": 0}
+Client (null) received PUBLISH (d0, q0, r0, m0, '/BATTERY_STATUS', ... (347 bytes))
+{"id": 0, "battery_function": 0, "type": 0, "temperature": 32767, "voltages": "[12587, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535, 65535]", "current_battery": 0, "current_consumed": 0, "energy_consumed": 0, "battery_remaining": 100, "time_remaining": 0, "charge_state": 1, "voltages_ext": "[0, 0, 0, 0]", "mode": 0, "fault_bitmask": 0}
+Client (null) sending DISCONNECT
